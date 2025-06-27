@@ -10,5 +10,5 @@ services:
       - '81:81'
       - '443:443'
     volumes:
-      - ${Master_Path}/LocalProxy/data:/data
-      - ${Master_Path}/LocalProxy/LetEnc:/etc/letsencrypt
+      - ${Master_Path}/proxy/data:/data
+      - ${Master_Path}/proxy/LetEnc:/etc/letsencrypt
